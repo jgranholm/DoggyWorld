@@ -221,7 +221,7 @@ header{
     float: right;
 }
 
-  .jumbotronabout {
-    position:relative;
-    bottom:-20px;
-    }
+
+  .jumbotron1  {
+font-color: black;
+}
