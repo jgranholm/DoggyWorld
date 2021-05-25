@@ -219,4 +219,8 @@ header{
 .post-content{
     width:70%;
     float: right;
-  }
+}
+
+  .jumbotronabout {
+    position: relative; top: 10px;
+    }
