@@ -116,7 +116,6 @@ a {
         }
 
         .footer-col {
-          color:black;
           width: 25%;
           padding: 0 15px;
           font-size: 18px;
@@ -126,6 +125,7 @@ a {
             font-size: 21px;
             text-transform: capitalize;
             margin-bottom: 30px;
+            color:black;
               }
           .container.bg-white {
             max-width: 1170px;
