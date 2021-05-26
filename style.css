@@ -222,11 +222,3 @@ header{
     width:70%;
     float: right;
 }
-
-.sidebar {
-  width: 250px;
-  height: 100vh;
-  position:fixed;
-  margin-left: -300px;
-  background-color: #8ACFE7;
-  }
