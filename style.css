@@ -223,7 +223,10 @@ header{
     float: right;
 }
 
-.submit {
-  background-color: #8ACFE7;
+.form-submit-button {
   background: #8ACFE7;
+  color: white;
+  border-color: #8ACFE7
+  height: 50px;
+  width: 100px;
   }
