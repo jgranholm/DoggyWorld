@@ -215,28 +215,17 @@ header{
     left: 0;
 }
 
-.sidebar{
-    width:30%;
-    float: left;
-    padding-top: 200px
-}
 .post-content{
     width:70%;
     float: right;
 }
 
-.form-submit-button {
-  background: #8ACFE7;
-  color: white;
-  border-color: #8ACFE7
-  height: 50px;
-  width: 100px;
-  }
 
   .fab fa-facebook-f {
     padding: 20px;
     margin: 5px;
     }
+=====//sidebar//======
 
     .main_box {
       position: relative;
