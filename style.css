@@ -168,7 +168,7 @@ a {
   }
 
   input[type=submit] {
-    background-color: #04AA6D;
+    background-color: #8ACFE7;
     color: white;
     padding: 12px 20px;
     border: none;
@@ -349,8 +349,10 @@ header{
     }
 }
 
-.menu-toggle {
-  border-color: #8ACFE7;
+.menu-toggle {border-radius:28px;
+	border:1px solid #8ACFE7;
+	display:inline-block;
+  border-radius:28px;
 }
 
 .card {
