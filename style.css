@@ -255,7 +255,7 @@ header{
     -moz-transition: all 0.5s ease;
     -o-transition: all 0.5s ease;
     transition: all 0.5s ease;
-    margin-top: 130px;
+    margin-top: 140px;
 }
 
 #wrapper.toggled #sidebar-wrapper {
@@ -349,10 +349,10 @@ header{
     }
 }
 
-.menu-toggle {border-radius:28px;
+.menu-toggle {
+  border-radius:28px;
 	border:1px solid #8ACFE7;
 	display:inline-block;
-  border-radius:28px;
 }
 
 .card {
