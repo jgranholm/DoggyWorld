@@ -293,6 +293,7 @@ header{
     display: block;
     text-decoration: none;
     color: black;
+    font-size: 22px;
 }
 
 .sidebar-nav li a:hover {
@@ -374,4 +375,8 @@ header{
     .column, input[type=submit] {
       width: 100%;
       margin-top: 0;
+    }
+
+    .jumbotron-caption{
+      font-size: 30px;
     }
