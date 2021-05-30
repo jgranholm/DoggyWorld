@@ -117,7 +117,7 @@ a {
       font-family: 'Amatic SC';
       font-weight: 300;
       padding: 50px 0;display: flex;
-  align-items: center; 
+  align-items: center;
       display: flex;
   align-items: center;
         }
@@ -294,7 +294,6 @@ header{
     text-decoration: none;
     color: black;
     font-size: 22px;
-    text-transform: uppercase;
     padding-top: 30px;
 }
 
