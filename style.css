@@ -244,12 +244,12 @@ header{
     height: 100%;
     margin-left: -250px;
     overflow-y: auto;
-    background:rgba(138, 207, 231, 0.52)
+    background: white;
     -webkit-transition: all 0.5s ease;
     -moz-transition: all 0.5s ease;
     -o-transition: all 0.5s ease;
     transition: all 0.5s ease;
-    margin-top: 120px;
+    margin-top: 150px;
 }
 
 #wrapper.toggled #sidebar-wrapper {
@@ -269,8 +269,6 @@ header{
 
 /* Sidebar Styles */
 
-
-
 .sidebar-nav {
     position: absolute;
     top: 0;
@@ -281,26 +279,21 @@ header{
 }
 
 .sidebar-nav li {
-  background-color: white;
- position: relative;
- text-indent: 20px;
- line-height: 40px;
+    text-indent: 20px;
+    line-height: 40px;
 }
-
-
 
 .sidebar-nav li a {
     display: block;
     text-decoration: none;
-    color: black;
-    font-size: 22px;
-    padding-top: 30px;
+    color: #999999;
 }
 
 .sidebar-nav li a:hover {
     text-decoration: none;
     color: grey;
-  }
+    background: rgba(255,255,255,0.2);
+}
 
 .sidebar-nav li a:active,
 .sidebar-nav li a:focus {
@@ -309,13 +302,12 @@ header{
 
 .sidebar-nav > .sidebar-brand {
     height: 65px;
-    font-size: 21px;
+    font-size: 18px;
     line-height: 60px;
 }
 
 .sidebar-nav > .sidebar-brand a {
     color: black;
-    font-size: 24px;
 }
 
 .sidebar-nav > .sidebar-brand a:hover {
@@ -349,10 +341,6 @@ header{
         position: relative;
         margin-right: 0;
     }
-}
-.sidebar-brand{
-  font-size: 24px;
-}
 
 
 
