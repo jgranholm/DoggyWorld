@@ -313,6 +313,7 @@ sidebar-nav a:hover::before {
     color: black;
     font-size: 22px;
     text-transform: uppercase;
+    padding-top: 30px;
 }
 
 .sidebar-nav li a:hover {
