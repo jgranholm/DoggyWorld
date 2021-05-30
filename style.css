@@ -248,12 +248,12 @@ header{
     height: 100%;
     margin-left: -250px;
     overflow-y: auto;
-    background:rgba(138, 207, 231, 0.52);
+    background:white;
     -webkit-transition: all 0.5s ease;
     -moz-transition: all 0.5s ease;
     -o-transition: all 0.5s ease;
     transition: all 0.5s ease;
-    margin-top: 110px;
+    margin-top: 90px;
 }
 
 #wrapper.toggled #sidebar-wrapper {
@@ -373,7 +373,7 @@ background: white;
     padding: 25px 0px;
   }
   .card-body {
-    box-shadow: #8ACFE7;
+    box-shadow: rgba(138, 207, 231, 0.52);
   }
 
   .card-body a {
