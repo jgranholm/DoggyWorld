@@ -381,6 +381,7 @@ sidebar-nav a:hover::before {
 #cards {
   font-family: 'Josefin Sans', sans-serif;
 padding: 30px 0px;
+background: white;
   }
 
   #cards h1{
