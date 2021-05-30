@@ -23,7 +23,7 @@ header::after {
 }
 
 .logo {
-    float: left;
+    
     padding: 0px 0;
     margin: 0;
     background-color: white;
@@ -95,10 +95,12 @@ a {
       font-size: 60px;
       font-family: 'Amatic SC';
       font-weight: 300;
-      text-align: center;
-      float: center;
       }
 
+.jumbotronmain {
+  text-align: center;
+  float: center;
+}
 
 
       h1 {
@@ -116,6 +118,7 @@ a {
       font-weight: 300;
       padding: 50px 0;
       text-align: center;
+      float: center;
         }
 
         .footer-col {
