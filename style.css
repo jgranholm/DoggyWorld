@@ -297,7 +297,7 @@ header{
 
 .sidebar-nav li a:hover {
     text-decoration: none;
-    color: black;
+    color: grey;
     background: rgba(255,255,255,0.2);
 }
 
