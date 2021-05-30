@@ -98,7 +98,7 @@ a {
       }
 
       .jumbotron .div {
-        
+
         padding-left: 20px;
         }
 
@@ -244,7 +244,11 @@ header{
         position: fixed;
         height: 100vh;
         width: 280px;
+        background: rgba(255, 255, 255, 0.1);
+        box-shadow: 0 0 6px rgba(255, 255, 255, 0.1);
       }
+
+
 
       * {
     margin: 0px;
