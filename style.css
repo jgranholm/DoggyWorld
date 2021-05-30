@@ -95,10 +95,11 @@ a {
       font-size: 60px;
       font-family: 'Amatic SC';
       font-weight: 300;
+      text-align: center;
       }
 
       .jumbotron .div {
-        padding-left: 15px;
+        text-align: center;
         }
 
       h1 {
