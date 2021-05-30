@@ -225,11 +225,10 @@ header{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
 }
+
 .main_box{
   position: relative;
-  background: url('side.jpeg') right no-repeat;
   background-size: cover;
   height: 100vh;
   width: 100%;
@@ -251,7 +250,7 @@ header{
   box-shadow: 0px 2px 4px rgba(255, 255, 255, 0.5);
 }
 .sidebar_menu .logo a{
-  color: #fff;
+  color: black;
   font-size: 25px;
   font-weight: 500;
   position: absolute;
@@ -274,7 +273,7 @@ header{
   padding-right: 8px;
 }
 .sidebar_menu .menu a{
-  color: #fff;
+  color: black;
   font-size: 20px;
   text-decoration: none;
 }
@@ -293,7 +292,7 @@ header{
 .sidebar_menu .social_media i{
   text-decoration: none;
   padding: 0 5px;
-  color: #fff;
+  color: black;
   opacity: 0.6;
   font-size: 20px;
 }
@@ -306,7 +305,7 @@ header{
   display: none;
 }
 .main_box .btn_one i{
-  color: #fff;
+  color: black;
   font-size: 30px;
   font-weight: 700;
   position: absolute;
