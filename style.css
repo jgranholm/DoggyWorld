@@ -117,7 +117,8 @@ a {
       font-family: 'Amatic SC';
       font-weight: 300;
       padding: 50px 0;
-text-align: center;
+      text-align: center;
+      float: center;
         }
 
         .footer-col {
@@ -242,12 +243,12 @@ header{
     height: 100%;
     margin-left: -250px;
     overflow-y: auto;
-    background: white;
+    background:rgba(138, 207, 231, 0.52)
     -webkit-transition: all 0.5s ease;
     -moz-transition: all 0.5s ease;
     -o-transition: all 0.5s ease;
     transition: all 0.5s ease;
-    margin-top: 150px;
+    margin-top: 120px;
 }
 
 #wrapper.toggled #sidebar-wrapper {
@@ -267,6 +268,8 @@ header{
 
 /* Sidebar Styles */
 
+
+
 .sidebar-nav {
     position: absolute;
     top: 0;
@@ -277,21 +280,27 @@ header{
 }
 
 .sidebar-nav li {
-    text-indent: 20px;
-    line-height: 40px;
+  background-color: white;
+ position: relative;
+ text-indent: 20px;
+ line-height: 40px;
 }
+
+
 
 .sidebar-nav li a {
     display: block;
     text-decoration: none;
-    color: #999999;
+    color: black;
+    font-size: 22px;
+    text-transform: uppercase;
+    padding-top: 30px;
 }
 
 .sidebar-nav li a:hover {
     text-decoration: none;
     color: grey;
-    background: rgba(255,255,255,0.2);
-}
+  }
 
 .sidebar-nav li a:active,
 .sidebar-nav li a:focus {
@@ -300,12 +309,13 @@ header{
 
 .sidebar-nav > .sidebar-brand {
     height: 65px;
-    font-size: 18px;
+    font-size: 21px;
     line-height: 60px;
 }
 
 .sidebar-nav > .sidebar-brand a {
     color: black;
+    font-size: 24px;
 }
 
 .sidebar-nav > .sidebar-brand a:hover {
@@ -339,6 +349,10 @@ header{
         position: relative;
         margin-right: 0;
     }
+}
+.sidebar-brand{
+  font-size: 24px;
+}
 
 
 
