@@ -324,8 +324,16 @@ padding-top: 30px;
               }
 
                 #check:checked ∼.sidebar_menu {
-                left:
+                left: 0px;
+              }
 
+              #check:checked ∼ .btn_one i{
+                opacity: 0;
+              }
+
+#check:checked ∼ .sidebar_menu .btn_two i{
+  opacity:1;
+}
 
 
 
