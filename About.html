@@ -49,47 +49,93 @@
           </nav>
         </div>
 
-        <div class="main_box">
-  <input type="checkbox" id="check">
-  <div class="btn_one">
-    <label for="check">
-      <i class="fas fa-bars"></i>
-    </label>
-  </div>
-  <div class="sidebar_menu">
-    <div class="logo">
-      <a href="#">BlogPosts</a>
-        </div>
-      <div class="btn_two">
-        <label for="check">
-          <i class="fas fa-times"></i>
-        </label>
-      </div>
-    <div class="menu">
-      <ul>
-        <li><i class="fas fa-angle-double-right"></i>
-          <a href="#">Lumi in the snow for the first time.</a>
-        </li>
-        <li>
-          <i class="fas fa-angle-double-right"></i>
-          <a href="#">Elmo and Takku in the woods.</a>
-        </li>
-        <li>
-          <i class="fas fa-angle-double-right"></i>
-          <a href="#">Camping.</a>
-        </li>
-        <li>
-          <i class="fas fa-angle-double-right"></i>
-          <a href="#"> Holiday Season with the dogs.</a>
-        </li>
-        <li>
-          <i class="fas fa-angle-double-right"></i>
-          <a href="#">Making new friends.</a>
-        </li>
-      </ul>
-    </div>
-    </div>
-  </div>
+        <div class="wrapper">
+      	<nav id="sidebar">
+      		<div class="sidebar-header">
+      			<h3>BOOTSTRAP SIDEBAR</h3>
+      		</div>
+
+
+      		<ul class="list-unstyled components">
+      			<p>Dummy Heading</p>
+      			<li class="active">
+      				<a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Home</a>
+      				<ul class="collapse list-unstyled" id="homeSubmenu">
+      					<li>
+      						<a href="#">home1</a>
+      					</li>
+      					<li>
+      						<a href="#">home2</a>
+      					</li>
+      					<li>
+      						<a href="#">home3</a>
+      					</li>
+      				</ul>
+      			</li>
+
+      			<li>
+      				<a href="#">About</a>
+      			</li>
+      			<li>
+      				<a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Page</a>
+      				<ul class="collapse list-unstyled" id="pageSubmenu">
+      					<li>
+      						<a href="#">page1</a>
+      					</li>
+      					<li>
+      						<a href="#">page2</a>
+      					</li>
+      					<li>
+      						<a href="#">page3</a>
+      					</li>
+      				</ul>
+      			</li>
+      			<li>
+      				<a href="#">Services</a>
+      			</li>
+      			<li>
+      				<a href="#">Contact Us</a>
+      			</li>
+      		</ul>
+
+      		<ul class="list-unstyled CTAs">
+      			<li>
+      				<a href="#" class="download">Download code</a>
+      			</li>
+      			<li>
+      				<a href="#" class="article">article</a>
+      			</li>
+      		</ul>
+      	</nav>
+
+      	<div class="content">
+      		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+      		<button type="button" id="sidebarCollapse" class="btn btn-info">
+      			<i class="fa fa-align-justify"></i> <span>toggle sidebar</span>
+      		</button>
+
+    
+     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+       <span class="navbar-toggler-icon"></span>
+     </button>
+     <div class="collapse navbar-collapse" id="navbarNav">
+       <ul class="navbar-nav ml-auto">
+         <li class="nav-item active">
+           <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+         </li>
+         <li class="nav-item">
+           <a class="nav-link" href="#">Features</a>
+         </li>
+         <li class="nav-item">
+           <a class="nav-link" href="#">Pricing</a>
+         </li>
+         <li class="nav-item">
+           <a class="nav-link disabled" href="#">Disabled</a>
+         </li>
+       </ul>
+     </div>
+   </nav>
 
 
       <div class="container-fluid">
