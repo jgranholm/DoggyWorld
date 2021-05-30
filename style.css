@@ -216,15 +216,6 @@ header{
 }
 
 
-.post-content{
-    width:70%;
-}
-
-.button{
-  color: white;
-}
-
-
 *{
   margin: 0;
   padding: 0;
@@ -335,6 +326,7 @@ sidebar-nav a:hover::before {
 
 .sidebar-nav > .sidebar-brand a {
     color: black;
+    font-size: 24px;
 }
 
 .sidebar-nav > .sidebar-brand a:hover {
@@ -377,7 +369,7 @@ sidebar-nav a:hover::before {
   border-radius:28px;
 	border:1px solid #8ACFE7;
 	display:inline-block;
-  font-size: 22px;
+  font-size: 26px;
 }
 
 .menu-toggle a:hover {
@@ -397,8 +389,4 @@ sidebar-nav a:hover::before {
     .column, input[type=submit] {
       width: 100%;
       margin-top: 0;
-    }
-
-    .jumbotron-caption{
-      font-size: 30px;
     }
