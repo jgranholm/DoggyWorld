@@ -201,13 +201,6 @@ a {
     clear: both;
   }
 
-
-  @media screen and (max-width: 600px) {
-    .column, input[type=submit] {
-      width: 100%;
-      margin-top: 0;
-    }
-
 .responsive {
   max-width: 100%;
   height: auto;
@@ -220,16 +213,6 @@ header{
     left: 0;
 }
 
-.post-content{
-    width:70%;
-    float: right;
-}
-
-
-  .fab fa-facebook-f {
-    padding: 20px;
-    margin: 5px;
-    }
 
 
     .main_box {
