@@ -135,6 +135,10 @@ a {
             margin-bottom: 30px;
             color:black;
               }
+
+              .footer a:hover{
+                color: grey;
+              }
           .container bg-white {
             max-width: 1170px;
             margin:auto;
