@@ -316,7 +316,7 @@ header{
 }
 
 .sidebar-nav > .sidebar-brand a:hover {
-    color: black;
+    color: grey;
     background: none;
 }
 
