@@ -214,13 +214,6 @@ header{
     left: 0;
 }
 
-  @media screen and (max-width: 1280px) {
-    .column, input[type=submit] {
-      width: 100%;
-      margin-top: 0;
-    }
-
-
 
 .post-content{
     width:70%;
@@ -349,9 +342,6 @@ header{
 }
 
 
-
-
-
 .card {
   padding: 30px 0px;
   font-size: 15px;
@@ -360,3 +350,9 @@ header{
   padding-right: 15px;
   font-weight: 400;
   }
+
+  @media screen and (max-width: 1280px) {
+    .column, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
