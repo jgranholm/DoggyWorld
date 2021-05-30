@@ -237,7 +237,7 @@ header{
       height: 100vh;
       width: 100%;
       background-size: cover;
-
+padding-top: 30px;
       }
 
       .main_box .sidebar_menu {
@@ -270,6 +270,11 @@ header{
               top: 80px;
               width: 100%;
               }
+
+              .sidebar_menu .menu li {
+                margin-top: 6px;
+                padding: 14px 20px;
+
 
 
 
