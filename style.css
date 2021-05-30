@@ -121,7 +121,7 @@ a {
 
         .footer-col {
           width: 25%;
-          padding: 0 15px;
+          padding: 0 30px;
           font-size: 18px;
           font-weight: 400;
           }
@@ -251,7 +251,6 @@ header{
     -moz-transition: all 0.5s ease;
     -o-transition: all 0.5s ease;
     transition: all 0.5s ease;
-    margin-top: 110px;
 }
 
 #wrapper.toggled #sidebar-wrapper {
