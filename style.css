@@ -220,6 +220,10 @@ header{
     float: right;
 }
 
+.button{
+  color: white;
+}
+
 
 *{
   margin: 0;
