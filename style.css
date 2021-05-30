@@ -261,6 +261,7 @@ padding-top: 30px;
               .sidebar_menu .menu li {
                 margin-top: 6px;
                 padding: 14px 20px;
+                transition: all 0.3s linear;
   }
 
   .sidebar_menu .menu i {
