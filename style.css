@@ -280,15 +280,12 @@ header{
 }
 
 .sidebar-nav li {
-  display: inline-block;
-  margin-left: 23px;
-  padding-top: 60px;
   background-color: white;
  position: relative;
  text-indent: 20px;
  line-height: 40px;
 }
-  
+
 
 
 .sidebar-nav li a {
