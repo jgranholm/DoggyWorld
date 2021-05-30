@@ -177,7 +177,7 @@ a {
   }
 
   input[type=submit]:hover {
-    background-color: grey;
+    background-color: black;
   }
 
 
@@ -241,7 +241,7 @@ header{
     height: 100%;
     margin-left: -250px;
     overflow-y: auto;
-    background: white;
+    background: #7A8ACFE7;
     -webkit-transition: all 0.5s ease;
     -moz-transition: all 0.5s ease;
     -o-transition: all 0.5s ease;
