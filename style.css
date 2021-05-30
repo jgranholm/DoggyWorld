@@ -313,7 +313,7 @@ sidebar-nav a:hover::before {
     color: black;
     font-size: 22px;
     text-transform: uppercase;
-    padding-top: 30px;
+    padding-top: 50px;
 }
 
 .sidebar-nav li a:hover {
@@ -368,6 +368,9 @@ sidebar-nav a:hover::before {
         position: relative;
         margin-right: 0;
     }
+}
+.sidebar-brand{
+  font-size: 24px;
 }
 
 .menu-toggle {
