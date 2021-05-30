@@ -290,14 +290,13 @@ header{
     color: black;
     font-size: 22px;
     text-transform: uppercase;
-    padding-top: 50px;
+    padding-top: 30px;
 }
 
 .sidebar-nav li a:hover {
     text-decoration: none;
     color: grey;
-    background: rgba(255,255,255,0.2);
-}
+  }
 
 .sidebar-nav li a:active,
 .sidebar-nav li a:focus {
@@ -351,16 +350,7 @@ header{
   font-size: 24px;
 }
 
-.menu-toggle {
-  border-radius:28px;
-	border:1px solid #8ACFE7;
-	display:inline-block;
-  font-size: 26px;
-}
 
-.menu-toggle a:hover {
-    color: grey;
-}
 
 #cards {
   font-family: 'Josefin Sans', sans-serif;
@@ -377,6 +367,9 @@ background: white;
     text-align: center;
     padding: 25px 0px;
   }
+  .card-body {
+    box-shadow: 0 0 20px 7px rgba(255, 0, 0, 0, 0.1);
+  }
 
   .card-body a {
     color: black;
@@ -388,9 +381,6 @@ background: white;
     margin: 20px 10px;
   }
 
-  .card-body {
-    box-shadow: 0 0 20px 7px rgba(255, 0, 0, 0, 0.1);
-  }
 
 .card-body a:hover{
   color: grey;
