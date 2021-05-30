@@ -122,7 +122,7 @@ a {
         }
 
         .footer-col {
-          width: 100%;
+          width: 25%;
           padding: 0 30px;
           font-size: 18px;
           font-weight: 400;
@@ -280,20 +280,16 @@ header{
 }
 
 .sidebar-nav li {
-  background-color: white;
- position: relative;
- text-indent: 20px;
- line-height: 40px;
+
+    text-indent: 20px;
+    line-height: 40px;
 }
-
-
 
 .sidebar-nav li a {
     display: block;
     text-decoration: none;
     color: black;
     font-size: 22px;
-    text-transform: uppercase;
     padding-top: 30px;
 }
 
